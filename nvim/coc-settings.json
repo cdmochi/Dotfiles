@@ -1,0 +1,32 @@
+{
+    "languageserver": {
+        "arduino":{ 
+            "command":"/opt/arduino-language-server/arduino-language-server",
+            "rootPatterns":["*.ino"],
+            "filetypes":["arduino"],
+            "args":["-cli", "~/bin/arduino-cli", "-clangd", "~/bin/clangd_13.0.0/bin/clangd", "-cli-config", "~/.arduino15/arduino-cli.yaml"]
+        }
+    },
+    "suggest.echodocSupport": true,
+    "suggest.maxCompleteItemCount": 20,
+    "coc.preferences.formatOnSaveFiletypes": [
+        "javascript",
+        "typescript",
+        "typescriptreact",
+        "javascriptreact",
+        "typescript.tsx"
+    ],
+    "eslint.filetypes": [
+        "javascript",
+        "typescript",
+        "typescriptreact",
+        "javascriptreact",
+        "typescript.tsx"
+    ],
+    "diagnostic.errorSign": "•",
+    "diagnostic.warningSign": "•",
+    "diagnostic.infoSign": "•",
+    "diagnostic.displayByAle": true,
+    "rest-client.showHeaders": false,
+    "rest-client.proxy": "http://localhost:5000/"
+}

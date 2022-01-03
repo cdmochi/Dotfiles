@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Repositories'
+let g:netrw_dirhist_0='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Repositories/Interfaces'
+let g:netrw_dirhist_9='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Repositories'
+let g:netrw_dirhist_8='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Controllers'
+let g:netrw_dirhist_7='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Repositories'
+let g:netrw_dirhist_6='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService'
+let g:netrw_dirhist_5='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Repositories'
+let g:netrw_dirhist_4='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Services'
+let g:netrw_dirhist_3='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Repositories'
+let g:netrw_dirhist_2='/home/cdmochi/projects/VehicleTracking/VehicleTrackingService/Services'

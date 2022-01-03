@@ -14,88 +14,75 @@ if !has('nvim')
 endif
 
 "" <-- PLUGINS -->
-"A
-
-"B
 call dein#add('BurntSushi/ripgrep')
 
-"C
 call dein#add('ctrlpvim/ctrlp.vim')
 call dein#add('chemzqm/vim-jsx-improve')
+
+"Tmux Mapper
 call dein#add('christoomey/vim-tmux-navigator')
+
+"React HTML Snippets
 call dein#add('cristianoliveira/vim-react-html-snippets')
 
-"D
+"Lintings 
 call dein#add('dense-analysis/ale')
+
+"ColorScheme
 call dein#add('dikiaap/minimalist')
-
-"E
-call dein#add('elzr/vim-json')
-
-"F
-
-"G
-
-"H
-
-"I
-
-"J
-
-"K
-
-"L
-
-"M
-call dein#add('maxmellon/vim-jsx-pretty')
 "call dein#add('morhetz/gruvbox')
 
-"N
+"Json snippets
+call dein#add('elzr/vim-json')
+
+"Pretty
+call dein#add('maxmellon/vim-jsx-pretty')
+
+"Intelli Sense
 call dein#add('neoclide/coc.nvim', { 'merged': 0, 'rev': 'master', 'build': 'yarn install --frozen-lockfile' })
+
+"TELESCOPE!
 call dein#add('nvim-telescope/telescope-ui-select.nvim')
 call dein#add('nvim-lua/plenary.nvim')
 call dein#add('nvim-telescope/telescope.nvim')
 call dein#add('nvim-telescope/telescope-fzf-native.nvim')
 
-"O
+"C# Language Server
 call dein#add('OmniSharp/omnisharp-vim')
 
-"P
+"Directory
 call dein#add('preservim/nerdtree')
+
+"JS Snippets
 call dein#add('pangloss/vim-javascript')
+
+" Commenter 
 call dein#add('preservim/nerdcommenter')
 
-"Q
-
-"R
-
-"S
+" Basic Snippets
 call dein#add('Shougo/neosnippet.vim')
 call dein#add('Shougo/neosnippet-snippets')
 call dein#add('Shougo/defx.nvim')
+
+" Arduino Stuffs
 call dein#add('stevearc/vim-arduino')
+
+" Beatify VimUI
 call dein#add('stevearc/dressing.nvim')
+
+" Languages Pack
 call dein#add('sheerun/vim-polyglot')
 
-"T
-
-"U
-
-"V
+" Airline Status Bar
 call dein#add('vim-airline/vim-airline')
 call dein#add('vim-airline/vim-airline-themes')
+
+" Highlight
 call dein#add('vim-scripts/nvim-treesitter')
+
+" Matching Close Tags & Braces
 call dein#add('valloric/MatchTagAlways')
 
-"W
-
-"X
-
-"Y
-
-"Z
-
-"N
 
 call dein#end()
 "</-- PLUGINS -->
@@ -171,14 +158,8 @@ nnoremap <leader>P "+P
 vnoremap <leader>p "+p
 vnoremap <leader>P "+P
 
-nnoremap <buffer> <leader>am <cmd>ArduinoVerify<CR>
-nnoremap <buffer> <leader>au <cmd>ArduinoUpload<CR>
-nnoremap <buffer> <leader>ad <cmd>ArduinoUploadAndSerial<CR>
-nnoremap <buffer> <leader>ab <cmd>ArduinoChooseBoard<CR>
-nnoremap <buffer> <leader>ap <cmd>ArduinoChooseProgrammer<CR>
 
 ""Telescope
-" Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
